@@ -1,0 +1,26 @@
+{
+    "name": "yelpcheetah",
+    "displayName": "YelpCheetah",
+    "description": "Syntax support for the Yelp Cheetah template language",
+    "version": "1.0.0",
+    "publisher": "joebateson",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cheetah",
+            "aliases": ["Yelp Cheetah", "cheetah"],
+            "extensions": [".tmpl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cheetah",
+            "scopeName": "text.html.yelp_cheetah",
+            "path": "./syntaxes/YelpCheetah.tmLanguage"
+        }]
+    }
+}
