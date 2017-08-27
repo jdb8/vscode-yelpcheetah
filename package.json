@@ -1,9 +1,13 @@
 {
     "name": "yelpcheetah",
-    "displayName": "YelpCheetah",
+    "displayName": "YelpCheetah Syntax",
     "description": "Syntax support for the Yelp Cheetah template language",
     "version": "1.0.0",
     "publisher": "joebateson",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jdb8/vscode-yelpcheetah.git"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
